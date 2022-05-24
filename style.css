@@ -1,0 +1,173 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+section {
+    background-color: white;
+    
+   
+   
+}
+
+.winner {
+    background-color: #1c1d25 ;
+    height: 100vh;
+    color: white;
+    font-size: 42px;
+
+
+
+}
+footer {
+    
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    height: 80px;
+    margin: 30px;
+
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 480px;
+    justify-content: space-around;
+    font-size: 32px;
+}
+li {
+    
+    text-decoration: none;
+}
+h1 {
+    font-size: 90px;
+    margin: 0;
+    font-weight: 700;
+}
+h2{
+    font-size: 50px;
+}
+p {
+    margin: 0;
+    font-weight: 350;
+    font-size: 32px;
+}
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+.winner-area {
+    display: flex;
+    
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.winner-text {
+    margin-left: 42px;
+    margin-bottom: 180px;
+}
+.icon {
+    width: 200px;
+    height:57px;
+    border-radius: 32px;
+    background-color: rgb(180, 70, 30);
+    text-align: center;
+    font-weight: 300;
+    font-size: 32px;
+    padding-top: 5px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.icon:hover {
+    background-color: #942d0b
+    
+
+}
+.icon:active {
+    background-color: rgb(90, 90, 90);
+    color: #888484
+}
+.social-media {
+    padding-bottom: 200px;
+   
+}
+.social {
+    margin: 20px;
+}
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding:80px;
+}
+.sub-section-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px
+}
+    
+.image-shot {
+    width: 300px;
+    border-radius: 150px;
+
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+}
+.project-card{
+    width: 300px;
+    height: 400px;
+    box-shadow: 5px 5px 20px rgb(161, 158, 158);
+    margin-bottom: 80px;
+    margin-top: 10px;
+    
+    
+}
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+.project-image {
+    width: 250px;
+    border-radius: 150px;
+    margin-top: 25px;
+    height: 200px;
+
+}
+.project-link {
+    color: rgb(165, 81, 51)
+}
+hr {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+a {
+    text-decoration: none;
+    color: rgb(136, 132, 132);
+}
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+}
+#email:hover {
+    cursor: pointer;
+}
+#phone:hover {
+    cursor: pointer;
+}
